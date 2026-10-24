@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us | Unity for Growth</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">🌱 Unity for Growth</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="challenges.html">Challenges</a>
+            <a class="active" href="join.html">Join Us</a>
+        </nav>
+        <button id="themeBtn" class="theme-btn">☀️ Light Mode</button>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <p class="eyebrow">YOUR COMMUNITY NEEDS YOU</p>
+            <h1>Join Unity for Growth</h1>
+            <p>Share your skills, contribute your ideas and help make a difference.</p>
+        </section>
+
+        <section class="section">
+            <div class="form-container">
+                <h2>Volunteer Registration</h2>
+                <p>Tell us how you would like to contribute.</p>
+
+                <form id="joinForm">
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" name="name"
+                           placeholder="Enter your name" required>
+
+                    <label for="project">Choose an activity</label>
+                    <select id="project" name="project" required>
+                        <option value="">Select an activity</option>
+                        <option value="Environmental Clean-up">Environmental clean-up</option>
+                        <option value="Tree Planting">Tree planting</option>
+                        <option value="Mentorship">Mentorship and learning</option>
+                        <option value="Digital Skills">Digital skills and coding</option>
+                        <option value="Community Support">Community support</option>
+                    </select>
+
+                    <label for="message">Your ideas (optional)</label>
+                    <textarea id="message" name="message" rows="5"
+                              placeholder="How would you like to help?"></textarea>
+
+                    <button type="submit" class="btn">Submit Interest</button>
+                </form>
+
+                <p id="formMessage" class="form-message" aria-live="polite"></p>
+                <p class="small-note">
+                    This is a demonstration form. It does not send or save
+                    your information to a server.
+                </p>
+            </div>
+        </section>
+
+        <section class="callout">
+            <h2>United We Grow Stronger</h2>
+            <p>Be the change you want to see in your community.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span class="year"></span> Unity for Growth. Growing together 🌱</p>
+    </footer>
+</body>
+</html>
